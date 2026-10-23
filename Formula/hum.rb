@@ -1,15 +1,15 @@
 class Hum < Formula
   desc "Run background commands as launchd services, configured by TOML files"
   homepage "https://github.com/plimeor/hum"
-  version "0.1.0-rc.7"
+  version "0.1.0-rc.8"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/plimeor/hum/releases/download/v0.1.0-rc.7/hum-aarch64-apple-darwin.tar.xz"
-      sha256 "41f97304f2827d518da55977b7ac27f778120acffe0e7843f3d3b0af4a703680"
+      url "https://github.com/plimeor/hum/releases/download/v0.1.0-rc.8/hum-aarch64-apple-darwin.tar.xz"
+      sha256 "c42d3fc33f042255a7cb8e37eb45d0df76510b8c071b62d9ab85adeb5fc051dd"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/plimeor/hum/releases/download/v0.1.0-rc.7/hum-x86_64-apple-darwin.tar.xz"
-      sha256 "9a462ab36a47bf2a6ef34a73681f4baa920ca6000f07227c6f6e6c32b04f1cf4"
+      url "https://github.com/plimeor/hum/releases/download/v0.1.0-rc.8/hum-x86_64-apple-darwin.tar.xz"
+      sha256 "b615342854c0e6f7c75af36d22c93de0da18f49b1dab8325bad8d2d1e00c9204"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
